@@ -8,6 +8,7 @@ Mailpox is a local mailbox for Laravel 9–13. It captures messages through a Sy
 composer require --dev tommica/mailpox
 php artisan vendor:publish --tag=mailpox-config
 php artisan migrate
+open http://localhost/mailpox
 ```
 
 Mailpox registers its mailer automatically through Laravel package discovery. Select it in local development:
